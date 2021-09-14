@@ -1,3 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 h1 {
   font-family: Lato;
 }
@@ -6,4 +10,8 @@ h2,
 legend,
 label {
   font-size: 1rem;
+}
+.reg-form{
+  padding: 15px 10px ;
+  margin: 5px 0px;
 }
