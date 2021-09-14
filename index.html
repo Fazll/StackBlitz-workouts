@@ -28,7 +28,7 @@
                 <input type="email" id="email" name="email" placeholder="sample@isqbs.com" required><br>
 
                 <label for="role">Applying for</label><br>
-                <input list="roles" id="role" name="role">
+                <input list="roles" id="role" name="role" required>
                 <datalist id="roles">
                   <option value="Full stack developer">
                   <option value="Front-end developer">
@@ -39,7 +39,7 @@
                   <option value="UI/UX developer">
                 </datalist><br>
                 <label for="skills">Skills</label>
-                <select id="skills">
+                <select id="skills" required>
               <optgroup label="Front-end">    
               <option value="Angular">Angular</option>
               <option value="React">React</option>
@@ -61,7 +61,9 @@
                 <label for="female">Female</label>
                 <input type="radio" id="female" name="Gender" value="female">
               </fieldset>
+            <button type="submit"
             </form>
+
 
 
 
